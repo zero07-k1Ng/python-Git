@@ -1,0 +1,23 @@
+num=987
+num1=0b10101#二进制用0b
+num2=0o345#八进制用0o
+num3=0x87A3#十六进制用0x
+print(num,num1,num2,num3)
+print(0.1+0.2)
+print(round(0.1+0.2,1))#round()用来保留小数点后的小数
+x=123+456j
+print(x.real)#实数部分
+print(x.imag)#虚数部分
+#用于输出多行字符串
+info1='''
+    你好
+    世界
+    dick
+'''
+info2="""
+    你好
+    世界
+    dick
+"""
+print(info1)
+print(info2)

@@ -1,0 +1,10 @@
+# 1. 忽略 IDE 配置文件夹
+.idea/
+.venv/
+
+# 2. 忽略巨大的 Python 安装包（根据你截图里的情况）
+*.whl
+
+# 3. 忽略 Python 缓存
+__pycache__/
+*.pyc

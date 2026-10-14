@@ -1,0 +1,10 @@
+s={10,20,30}
+print(s)#集合只能存储不可变数据类型
+s=set()#创建一个空集合
+print(s)
+s={}
+print(s,type(s))#直接使用s={}创建的是一个空字典，想创建空集合，需要用set()函数
+s=set('helloworld')#集合是无序的，不重复的
+print(s)
+s=set([10,20,30])
+print(s)

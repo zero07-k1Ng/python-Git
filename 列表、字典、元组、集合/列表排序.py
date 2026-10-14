@@ -1,0 +1,10 @@
+lst=[1,8,6,19,3]
+lst.sort(reverse=True)#True时就为降序排列
+print(lst)
+s=['apple','Banana','cherry']
+s.sort(key=str.lower)#忽略大小写进行比较
+print(s)
+s1=sorted(lst)#内置函数sorted()进行排序，默认为升序
+print(s1)
+s2=sorted(s1,reverse=True)
+print(s2)

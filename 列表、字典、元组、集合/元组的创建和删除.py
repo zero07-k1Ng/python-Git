@@ -1,0 +1,22 @@
+t=('hello',[10,20,30],40,'dick')
+print(t)
+#使用内置元素tuple()来创建元组,会将tuple()中的部分的每一项拆开，例如一个字符串，将会把字符串含有的所有字符全部拆开
+t=tuple('hello')
+print(t)
+t=tuple([10,20,30])
+print(t)
+t=tuple(range(10))
+print(t)
+print(10 in t)
+print(10 not in t)
+print(max(t))
+print(min(t))
+print(len(t))
+print(t.index(8))
+print(t.count(8))
+t=('hello')
+print(t,type(t))
+t=('hello',)#如果元组中只有一个元素，那么这个“，”号不能省
+print(t,type(t))
+del t
+#print(t) 
