@@ -9,7 +9,6 @@ optimizer = torch.optim.SGD(model.parameters(), lr=0.01)        # 最基础的�
 optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)       # 自适应学习率，实战最常用
 #`optimizer.zero_grad()`：清空所有参数上一轮累积的梯度
 #`optimizer.step()`：按梯度更新所有参数
-optimizer.zero_grad()
 '''
 #训练前调 `model.train()`，验证前调 `model.eval()`
 '''
